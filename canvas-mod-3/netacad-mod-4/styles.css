@@ -1,0 +1,41 @@
+.float-left {
+    float: right;
+    margin-right: 10px;
+}
+
+img {
+  width: 50%;
+  height: auto;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        float: none;
+    }
+}
+
+
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+@media screen and (max-width: 768px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .column {
+        width: 100%;
+        float: none;
+    }
+}

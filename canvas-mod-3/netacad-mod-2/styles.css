@@ -1,0 +1,66 @@
+h1 {
+    color: rgb(0, 128, 0); /* Dark Green using RGB */
+  }
+  
+p {
+    color: #FF5733; /* Bright Orange using HEX */
+  }
+  
+.vivid {
+    color: hsl(210, 100%, 50%); /* Vivid Blue using HSL */
+  }
+  
+a {
+    color: pink; /* Pink color using named color */
+  }
+
+body {
+    background-color: rgb(131, 177, 138);
+}
+
+.header {
+    background-image: url("https://edube.org/uploads/media/default/0001/03/sunflowers_sunset_full.jpg");
+    height: 500px;
+    text-align: center;
+    color: white;
+  }
+
+.header1 {
+    background-image: radial-gradient(circle, #ff9900, #ffcc00);
+    height: 500px;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+  }
+
+  ul {
+    list-style-image: url('https://tse3.mm.bing.net/th/id/OIP.BtiSbPFbyiBArXhLMqyC9QHaEK?rs=1&pid=ImgDetMain&o=7&rm=3');
+  }
+
+/* Unvisited Link */
+a:link {
+    color: #0000EE; /* Standard link color */
+    text-decoration: underline; /* Underlined by default */
+  }
+  
+  /* Visited Link */
+  a:visited {
+    color: #551A8B; /* Typically a darker shade */
+  }
+  
+  /* Link when hovered */
+  a:hover {
+    color: #FF0000; /* Changes color to red */
+    background-color: #F0F0F0; /* Adds a light gray background */
+    text-decoration: none; /* Removes underline */
+  }
+  
+  /* Active Link (while being clicked) */
+  a:active {
+    color: #F00; /* Typically a bright color */
+    font-weight: bold; /* Makes the text bold */
+  }
+
+.header {
+    border-radius: 50%;
+  }
