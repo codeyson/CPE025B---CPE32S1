@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Drinking Survey</title>
+</head>
+<body>
+    <h1 id="title">Drinkinh Survey</h1>
+    <p id="description">This survey reminds you to drink.</p>
+    <hr>
+    <form id="survey-form">
+        <label id="username">Username: <input id="name" type="text" placeholder="username" required></label>
+        <label id="email">Email: <input id="email" type="email" placeholder="fred@gmail.com" ></label>
+        <label id="age">Age: <input type="number" min="18" max="100" placeholder="29"></label>
+        <label id="phone">Phone: <input id="number" type="number" placeholder="09414597162" ></label>
+
+        <!-- radio button-->
+        <p>Do you drink?</p>
+        <input type="radio" name="drink">Yes
+        <input type="radio" name="drink">No
+
+        <!-- dropdown-->
+        <p>How often do you drink?</p>
+        <select name="whatdrink" id="drinktype" class="drop">
+            <option>Often</option>
+            <option>Very Often</option>
+            <option>Very very often</option>
+        </select>
+
+
+        <!--checkbox-->
+        <p>What do you prefer to drink?</p>
+        <span class="selection">
+            <input type="checkbox" value="attribute"> Water
+            <input type="checkbox" value="attribute"> Juice
+            <input type="checkbox" value="attribute">  Alcohol
+        </span>
+
+        <br>
+        <br>
+        <p>Comments: <textarea></textarea></p>
+        <button type="submit" id="submit" onclick="alert('Thank you for drinking!')">Submit</button>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+
+body {
+    background-color: rgb(179, 219, 240);
+}
+
+button {
+    padding: 0.5em;
+}
+
+button:hover {
+    background-color: rgb(37, 77, 152);
+}
+
+textarea {
+    color: rgb(39, 5, 255);
+}
+
+button:focus {
+    background-color: red;
+}
+
+.selection {
+    padding: 1em;
+    background-color: rgb(67, 149, 243);
+}
+
+.drop {
+    padding: 5px;
+
+}
