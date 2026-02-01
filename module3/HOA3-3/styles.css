@@ -3,17 +3,22 @@ body {
     font-family: Arial, sans-serif;
     font-size: 14px;
     margin: 0;
+    background-color: #EF1A2D;
 }
 
 /* Header styles */
 header {
-    background: url('https://edube.org/uploads/media/default/0001/04/products_image.jpg') no-repeat center center;
+    background: url('https://th.bing.com/th/id/R.644a69a2fc241d0b5a8971b8c397d368?rik=ZFMWF88wCFyQDg&pid=ImgRaw&r=0') no-repeat center center;
     background-size: cover;
-    padding: 20px;
+    padding: 60px;
     text-align: center;
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+h1 {
+    color: white;
 }
 
 /* Footer styles */
@@ -26,6 +31,12 @@ footer {
     width: 100%;
 }
 
+.product-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
 /* Product styles */
 .product {
     width: 300px;
@@ -35,6 +46,7 @@ footer {
     background-color: #f9f9f9;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     overflow: hidden;
+
 }
 
 .product-image {
