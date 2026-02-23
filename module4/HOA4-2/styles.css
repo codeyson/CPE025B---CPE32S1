@@ -29,15 +29,24 @@ header.visible {
 
 .product-image {
     width: 300px;
-    animation: rotate 10s infinite linear;
+    position: relative; 
+    animation: slideRight 5s infinite alternate ease-in-out;
 }
 
-@keyframes rotate {
+#fast-car {
+    animation-duration: 2s; 
+}
+
+#slow-car {
+    animation-duration: 6s; 
+}
+
+@keyframes slideRight {
     from {
-        transform: rotate(0deg);
+        transform: translateX(0);
     }
     to {
-        transform: rotate(360deg);
+        transform: translateX(1000px); 
     }
 }
 
@@ -66,11 +75,12 @@ header.visible {
 .features ul {
     list-style: none;
     padding: 0;
+    font-size: 1.5rem;
 }
 
 .feature-item {
     background-color: #f4f4f4;
-    margin: 10px 0;
+    margin: 20px 0;
     padding: 10px;
     border: 1px solid #ddd;
     transform: translateX(-100%);
