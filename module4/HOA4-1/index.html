@@ -10,30 +10,77 @@
     <header>
         <h1>My Portfolio</h1>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
     <main>
-        <section class="projects">
+        <section id="home">
+            <div class="content">
+                <h1>Hello, I'm Fred!</h1>
+                <h2>3rd Year Computer Engineering Student</h2>
+                <p>
+                    Passionate about Artificial Intelligence, Machine Learning, and Software Development.
+                    I enjoy building smart systems that solve real-world problems and continuously
+                    expanding my technical skills.
+                </p>
+            </div>
+        </section>
+        <section id="about">
+            <div class="content">
+                <h1>About Me</h1>
+                <p>
+                    I am currently pursuing a degree in Computer Engineering, where I have developed
+                    strong foundations in programming, algorithms, data structures, and system design.
+                </p>
+                <p>
+                    My interests include Artificial Intelligence, Computer Vision, and Machine Learning.
+                    I enjoy working on projects such as chatbots, image processing systems, and AI-powered applications.
+                </p>
+                <p>
+                    I am constantly learning new technologies and looking for opportunities to grow as a developer
+                    and engineer.
+                </p>
+            </div>
+        </section>
+        <section id="projects" class="projects content">
             <div class="project-card">
-                <h2>Project 1</h2>
-                <p>Description of project 1.</p>
+                <h2>Automated Education Chatbot</h2>
+                <p>An AI-powered discord chatbot using n8n that is designed to assist students with academic queries in real time. 
+            It provides explanations, practice questions, and personalized notes.</p>
             </div>
             <div class="project-card">
-                <h2>Project 2</h2>
-                <p>Description of project 2.</p>
+                <h2>Coin Detection </h2>
+                <p>A computer vision project that detects and classifies coins from live camera input. 
+            Built using yolov8 and roboflow dataset, the system identifies 
+            coin types, counts them accurately, and determine its evaluation.</p>
             </div>
             <div class="project-card">
-                <h2>Project 3</h2>
-                <p>Description of project 3.</p>
+                <h2>RAG Chatbot</h2>
+                <p>A Retrieval-Augmented Generation (RAG) chatbot that combines information retrieval with 
+            local LLM generation to provide accurate and context-aware responses. The system retrieves 
+            relevant documents from a knowledge base and generates answers based in that data to prevent hallucinations and improving  accuracy.</p>
+            </div>
+            </section>
+                <section id="contact">
+            <div class="content">
+                <h1>Contact Me</h1>
+                <p>
+                    I'm always open to collaboration, internship opportunities, and exciting tech discussions.
+                </p>
+
+                <p><strong>Email:</strong> fred@gmail.com</p>
+                <p><strong>Phone:</strong> 09123456789</p>
+                <p><strong>Location:</strong> Bulacan, Philippines</p>
+
+                <a href="mailto:fred@gmail.com" class="btn">Send Email</a>
             </div>
         </section>
     </main>
     <footer>
-        <p>© 2024 My Portfolio</p>
+        <p>© 2025 Frederick Masangkay</p>
     </footer>
 </body>
 </html>

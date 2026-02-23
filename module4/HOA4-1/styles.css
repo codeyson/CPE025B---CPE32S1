@@ -9,7 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #283757;
     color: white;
     padding: 10px 20px;
 }
@@ -17,16 +17,55 @@ header {
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px 20px; 
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #263159;
+    font-weight: 600;
+}
+
+.content p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    margin-bottom: 1px;
+}
+
+.content .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #0077ff;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.content .btn:hover {
+    background-color: #005fcc;
+}
+
 .projects {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     padding: 20px;
 }
@@ -34,7 +73,7 @@ nav a:hover {
 .project-card {
     background-color: #f4f4f4;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #1f1919;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
 }
 
@@ -54,7 +93,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: #333;
+    background-color: #283757;
     color: white;
     text-align: center;
     padding: 10px 20px;
