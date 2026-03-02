@@ -1,0 +1,51 @@
+/* styles.scss */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 19px;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.header, .footer {
+  background-color: rgb(101.5609756098, 135.1463414634, 246.4390243902);
+  padding: 10px;
+  text-align: center;
+}
+
+.header h1, .footer p {
+  font-size: 2em;
+}
+
+main {
+  padding: 10px;
+}
+main .about h2 {
+  font-size: 1.5em;
+}
+main .about p {
+  font-size: 19px;
+}
+main .features h2 {
+  font-size: 1.5em;
+}
+main .features .feature-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+main .features .feature-list li {
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: #ffab99;
+}
+main .example h2 {
+  font-size: 1.5em;
+}
+main .example .example-text {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #ff8166;
+}
+
+/*# sourceMappingURL=styles.css.map */

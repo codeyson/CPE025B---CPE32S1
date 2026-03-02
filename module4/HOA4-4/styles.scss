@@ -1,0 +1,76 @@
+/* styles.scss */
+
+$primary-color: #000000;
+$secondary-color: #0d40e9;
+$accent-color: #ff5733;
+$font-size: 19px;
+$padding: 10px;
+
+@mixin rounded-corners($radius) {
+  border-radius: $radius;
+}
+
+// Base styles
+body {
+  font-family: Arial, sans-serif;
+  font-size: $font-size;
+  color: $primary-color;
+  margin: 0;
+  padding: 0;
+}
+
+// Header and Footer styles
+.header, .footer {
+  background-color: lighten($secondary-color, 20%);
+  padding: $padding;
+  text-align: center;
+}
+
+.header h1, .footer p {
+  font-size: 2em;
+}
+
+// Main content styles
+main {
+  padding: $padding;
+
+  .about {
+    h2 {
+      font-size: 1.5em;
+    }
+
+    p {
+      font-size: $font-size;
+    }
+  }
+
+  .features {
+    h2 {
+      font-size: 1.5em;
+    }
+
+    .feature-list {
+      list-style-type: disc;
+      padding-left: 20px;
+
+      li {
+        @include rounded-corners(5px);
+        padding: 5px;
+        margin-bottom: 5px;
+        background-color: lighten($accent-color, 20%);
+      }
+    }
+  }
+
+  .example {
+    h2 {
+      font-size: 1.5em;
+    }
+
+    .example-text {
+      @include rounded-corners(10px);
+      padding: $padding;
+      background-color: lighten($accent-color, 10%);
+    }
+  }
+}
