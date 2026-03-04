@@ -38,6 +38,7 @@ while(loop){
         for (let i = 0; i < contacts.length; i++) {
             allContacts += `${i + 1}. ${contacts[i].name} / ${contacts[i].phone} / ${contacts[i].email}\n`;
         }
+        console.log(allContacts);
         alert(allContacts);
     }
     if (action === "add") {
