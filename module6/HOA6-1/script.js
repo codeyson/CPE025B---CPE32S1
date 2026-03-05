@@ -68,10 +68,3 @@ while(loop){
         loop = false;
     }
 }
-
-
-
-let last = contacts.length - 1;
-
-console.log(`${contacts[0].name} / ${contacts[0].phone} / ${contacts[0].email}`);
-console.log(`${contacts[last].name} / ${contacts[last].phone} / ${contacts[last].email}`);
