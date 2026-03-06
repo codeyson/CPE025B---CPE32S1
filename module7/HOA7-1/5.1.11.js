@@ -57,5 +57,5 @@ let contacts = [{
 }];
 
 showContact(contacts, 1);
-addNewContact(contacts, "John Doe", "09123456789", "john@email.com");
+addNewContact(contacts, "Fred", "09123456789", "fred@email.com");
 showAllContacts(contacts);
